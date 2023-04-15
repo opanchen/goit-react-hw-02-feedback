@@ -1,0 +1,28 @@
+.option-list {
+    display: flex;
+    gap: 16px;
+}
+
+.option-list__btn {
+    min-width: 60px;
+    padding: 8px 4px;
+    border: 1px solid;
+    border-radius: 2px;
+
+    text-transform: capitalize;
+
+    cursor: pointer;
+    transition: scale 250ms linear, color scale 250ms linear, background-color 250ms linear;
+}
+
+.option-list__btn:hover,
+.option-list__btn:focus {
+    background-color: #e2ddf8;
+    scale: 1.1;
+}
+
+.option-list__btn:active {
+    background-color: #5F6775;
+    color:#F4F4F4;
+}
+

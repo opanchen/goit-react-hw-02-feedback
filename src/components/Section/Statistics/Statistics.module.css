@@ -1,0 +1,9 @@
+.stat-list {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.stat-name {
+    font-weight: 500;
+}

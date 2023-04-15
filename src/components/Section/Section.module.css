@@ -1,0 +1,10 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 24px;
+}
+
+.title {
+  text-decoration: wavy;
+}
